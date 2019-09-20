@@ -1,0 +1,104 @@
+html, body {
+    font-family: 'Aladin', cursive !important;
+    background-color: rgb(69, 36, 110) !important;
+    letter-spacing: 0.125em;
+}
+
+.title {
+    text-align: center;
+    color: #E8EBD5;
+    font-weight: 900;
+}
+
+.title h1 {
+    font-size: 58px;
+    color: #E4BD5B;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: flex;
+}
+
+.canvas {
+    width: 800px;
+    height: 500px;
+    border: 5px solid #E4BD5B;
+}
+
+.about {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: flex;
+    color: #fefefe;
+}
+
+.code {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: flex;
+    width: 100%;
+    background-color: #E8EBD5;
+    text-align: center;
+}
+
+.explain {
+    width: 900px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.explain h3 {
+    font-weight: bold;
+    color: #FAB162;
+    font-size: 38px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+.explain a {
+    font-size: 21px;
+}
+
+.explaincode {
+    width: 900px;
+    text-align: justify;
+}
+
+.explaincode h3 {
+    font-weight: bold;
+    color: #A2052C;
+    font-size: 38px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+.explaincode a {
+    font-size: 21px;
+}
+
+.explaincode h1 {
+    font-size: 52px;
+    color: #A2052C;
+    text-align: center;
+}
+
+pre {
+    background: #E8EBD5;
+    border: 1px solid #ddd;
+    border-left: 3px solid #A2052C;
+    color: #444;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
